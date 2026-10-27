@@ -163,5 +163,9 @@ public class Pedido
         out.print( factura );
         out.close( );
     }
+    //Este método fue agregado para verificar el test de agregarProducto. Retorna la cantidad de productos en el pedido
+    public int getCantidadProductos(){
+        return productos.size();
+    }
 
 }
